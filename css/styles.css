@@ -2,6 +2,7 @@ body {
     padding-top: 3rem;
     padding-bottom: 3rem;
     color: #5a5a5a;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
 
@@ -20,6 +21,25 @@ body {
 .spetnaxlder-title {
     padding-top: 2rem;
     padding-left: 2rem;
+
+}
+.spetnaxlder-title > h1 {
+    font-family: 'Kaushan Script', cursive;
+    margin-bottom: 0;
+    font-size: 5.5rem;
+}
+
+@media only screen and (max-width: 600px) {
+    .spetnaxlder-title > h1 {
+        font-size: 2.5rem;
+    }
+}
+
+
+.spetnaxlder-title > p {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    margin-top: -10px;
+    margin-left: 20px;
 }
 
 .spetnaxlder-content {
@@ -48,12 +68,26 @@ body {
     /*background-color: #e2e3e5;
     border: 1px solid black;*/
 }
+
+.marketing a img {
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    filter: grayscale(100%);
+    transition: all 0.5s ease;
+}
+
+.marketing a:hover img {
+    -webkit-filter: grayscale(0%);
+    -moz-filter: grayscale(0%);
+    filter: grayscale(0%);
+}
+
 .marketing h2 {
     font-weight: 400;
 }
 .marketing .col-lg-4 p {
     margin-right: .75rem;
     margin-left: .75rem;
-    text-align: right;
+    font-size: 14px;
 }
 
